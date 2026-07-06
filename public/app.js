@@ -62,7 +62,7 @@ speakBtn.addEventListener('click', () => {
     }
 
     const speechConfig = SpeechSDK.SpeechConfig.fromSubscription(speechKey, speechRegion);
-    speechConfig.speechSynthesisVoiceName = 'en-US-GuyNeural';
+    speechConfig.speechSynthesisVoiceName = 'en-US-JennyNeural';
 
     
     const synthesizer = new SpeechSDK.SpeechSynthesizer(speechConfig);
